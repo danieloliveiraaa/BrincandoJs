@@ -1,0 +1,62 @@
+*{
+    color:var(--fontColor);
+    font-family: Helvetica;
+}
+
+body{
+    background: var(--bg);
+}
+
+ul{
+    font-family: Arial;
+}
+
+li {
+    list-style: circle;
+}
+    
+.list {
+    list-style: square;
+}
+
+
+.botaodiv{
+    position: absolute;
+    top: 10px;
+    margin-left:500px;
+    height:400px;
+    width: 200px;
+    border-radius: 50%;
+    border:none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn{
+    width: 100px;
+    height: 90px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: blue;
+    cursor: pointer;
+    
+
+}
+
+.btn:focus{ outline-style: none; }
+
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+}
+
+.dark-theme {
+    --bg:var(--black);
+    --fontColor:var(--green);
+}
+
+:root{
+    --green:#b8ff91;
+    --white:#ffffff;
+    --black:#000000;
+}
